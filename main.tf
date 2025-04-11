@@ -1,3 +1,5 @@
+# Added test resource for dev validation
+
 module "vpc" {
   source = "./modules/vpc"
 
