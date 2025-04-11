@@ -10,12 +10,12 @@ enable_ipv6                     = true
 assign_ipv6_address_on_creation = true
 single_nat_gateway              = false
 
-instance_type = "t3.micro"
-enable_https = false
-ami_id = "ami-xxxxxxxx"  # You'll input this during plan
+instance_type        = "t3.micro"
+enable_https         = false
+ami_id               = "ami-00a929b66ed6e0de6" # You'll input this during plan
 asg_desired_capacity = 2
-asg_max_size = 4
-asg_min_size = 1
+asg_max_size         = 4
+asg_min_size         = 1
 
 tags = {
   Environment = "Production"
